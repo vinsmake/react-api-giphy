@@ -3,7 +3,7 @@ import { useState } from "react";
 
 export const AddCategory = ({ onNewCategory }) => {
   
-  const [InputValue, setInputValue] = useState('One Piece');
+  const [InputValue, setInputValue] = useState('Dragon Ball');
 
 
   //we are getting onChange as an target
