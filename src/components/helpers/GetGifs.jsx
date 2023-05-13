@@ -1,7 +1,7 @@
 export const GetGifs = async (category) => {
     const KEY = `MUdNYQ4z6WNI0GjV5JP9dM76Z3X10gZB`
     const LIMIT = `20`
-    const URL = `http://api.giphy.com/v1/gifs/search?api_key=${KEY}&q=${category}&limit=${LIMIT}`
+    const URL = `https://api.giphy.com/v1/gifs/search?api_key=${KEY}&q=${category}&limit=${LIMIT}`
 
     //we get the response as a variable
     const response = await fetch(URL);
