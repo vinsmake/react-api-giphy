@@ -29,7 +29,7 @@ export const GifExpertApp = () => {
   //html zone
   return (
     <>
-      <h1>Giphy API</h1>
+      <h1>Giphy API by @vinsmake</h1>
 
 
       {/* input */}
