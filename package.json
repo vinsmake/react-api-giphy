@@ -9,8 +9,7 @@
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
-    "gitDeploy": "npm run build && npm run deploy",
-    "gitPush": "git add . && echo 'Enter Commit Message' && git commit -m \"$message\" && git push origin:develop"
+    "gitDeploy": "npm run build && npm run deploy"
   },
   "dependencies": {
     "react": "^18.2.0",
